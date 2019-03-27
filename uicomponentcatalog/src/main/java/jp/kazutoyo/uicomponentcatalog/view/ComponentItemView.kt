@@ -19,6 +19,7 @@ class ComponentItemView @JvmOverloads constructor(
 
     init {
         orientation = VERTICAL
+        gravity = Gravity.CENTER
         val padding = DimenUtil.dpToPx(context, 16f).toInt()
         setPadding(padding, padding, padding, padding)
 
