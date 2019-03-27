@@ -25,7 +25,7 @@ abstract class ComponentCatalogActivity : AppCompatActivity() {
         setupDrawer()
     }
 
-    abstract fun createCollections(): List<CatalogCategory>
+    abstract fun createCollections(): List<ComponentCatalogCategory>
 
     private fun setupDrawer() {
         val context = this
